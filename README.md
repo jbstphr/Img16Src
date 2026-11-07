@@ -33,7 +33,9 @@ This directory contains ~all the code for "application-functionalities"  (beside
   - I16_Prc/_ReadMe_I16Prc.txt - for reference during workflow
   - I16_Lib/_ReadMe_I16Lib.txt - for reference during workflow
    
-   
+
+
+ 
 Auxilliary associated directories/repositories:
  
   = 16-bit Headerless Images DataSeries Viewer MFC:
