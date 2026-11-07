@@ -12,7 +12,8 @@ The explicit references are:
 
 The theoretical background of this repository might be associated with "geometrical measurement" by H.Federer, L.Simon and their colleagues from mainly in ~1970th; ~<1985. However this code utilizes exactly "adhoc non-non-regular" metrics;  hence such association could only illustrate certain possibilities but can't prove anything about formal correctness of this code/algorithms.
 
-This directory contains ~all the code for "application-functionalities"  (beside K&R C RTL). There are 
+This directory contains ~all the code for "application-functionalities"  (beside K&R C RTL). There are
+
   = The library Img16Prc.so|.dll:
     "I16_Lib/*
 
