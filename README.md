@@ -15,23 +15,28 @@ The theoretical background of this repository might be associated with "geometri
 This directory contains ~all the code for "application-functionalities"  (beside K&R C RTL). There are
 
   = The library Img16Prc.so|.dll:
+  
     "I16_Lib/*" - library's source
     "I16_Cmn/*" - common files to include in calling CPP-project
     
   = Process_execution_example & process_files_iterator Img16Prc<.exe>:
+  
     "I16_Prc/*"
   
   = The directory for coding-debug-work-flow:
+  
     "Tst/*"
 
 Auxilliary associated directories/repositories:
  
   = 16-bit Headerless Images DataSeries Viewer MFC:
+  
     "Img16DatSer/*"
     - It is suitable for Windows and Linux under WinE.
     - It deals with clipboard, drag&drop, WindowsExplorer&Nautilus.
 
   = The directory for application-debug-work-flow:
-    like "e:\Img16Prc\*" or like "/mnt/e/Img16Prc".
+  
+     like "e:\Img16Prc\*" or "/mnt/e/Img16Prc".
     - "*.bat/*.sh" for process group of input images by Img16Prc<.exe>
     - "Img16Prcs.ljm" to process single opened image im ImageJ's Java-AWT
