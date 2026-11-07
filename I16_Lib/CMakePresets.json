@@ -1,0 +1,35 @@
+{ "version": 3,
+  "configurePresets": [
+    {"name": "ccW64Ninja", "generator": "Ninja",
+     "binaryDir": "${sourceDir}/build/${presetName}",
+     "cacheVariables": { 
+      "CMAKE_C_COMPILER": "cl", 
+      "CMAKE_CXX_COMPILER": "cl",
+      "CMAKE_CUDA_COMPILER": "d:/UTNVIDIA/CUDA132/bin/nvcc" }
+    },
+    {"name": "cW64r", "inherits": "ccW64Ninja",
+     "cacheVariables": { "CMAKE_BUILD_TYPE": "Release" }
+    },
+    {"name": "cW64D", "inherits": "ccW64Ninja",
+     "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug" } },
+    {"name": "ccLinNinja", "generator": "Ninja",
+     "binaryDir": "${sourceDir}/build/${presetName}",
+     "cacheVariables": {
+      "CMAKE_C_COMPILER": "/usr/bin/gcc",
+      "CMAKE_CXX_COMPILER": "/usr/bin/g++",
+      "CMAKE_CUDA_COMPILER": "/usr/local/cuda/bin/nvcc" }
+    },
+    {"name": "cLinr", "inherits": "ccLinNinja",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Release" }
+    },
+    {"name": "cLinD", "inherits": "ccLinNinja",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug" }
+    }
+  ],
+  "buildPresets": [
+    {"name": "bW64r", "description": "", "displayName": "", "configurePreset": "cW64r"},
+    {"name": "bW64D", "description": "", "displayName": "", "configurePreset": "cW64D"},
+    {"name": "bLinr", "description": "", "displayName": "", "configurePreset": "cLinr"},
+    {"name": "bLinD", "description": "", "displayName": "", "configurePreset": "cLinD"}
+  ]
+}

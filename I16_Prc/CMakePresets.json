@@ -1,0 +1,35 @@
+{
+  "version": 3,
+  "configurePresets": [
+    { "name": "cW64", "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "cl",
+        "CMAKE_CXX_COMPILER": "cl" }
+    },
+    { "name": "cW64r", "inherits": "cW64",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Release" }
+    },
+    { "name": "cW64D", "inherits": "cW64",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug" }
+    },
+    { "name": "cLin", "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "/usr/bin/gcc",
+        "CMAKE_CXX_COMPILER": "/usr/bin/g++" }
+    },
+    { "name": "cLinr", "inherits": "cLin",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Release" }
+    },
+    { "name": "cLinD", "inherits": "cLin",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug" }
+    }
+  ],
+  "buildPresets": [
+    { "name": "bW64r", "description": "", "displayName": "", "configurePreset": "cW64r" },
+    { "name": "bW64D", "description": "", "displayName": "", "configurePreset": "cW64D" },
+    { "name": "bLinr", "description": "", "displayName": "", "configurePreset": "cLinr" },
+    { "name": "bLinD", "description": "", "displayName": "", "configurePreset": "cLinD" }
+  ]
+}

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{dd33384e-b90a-426a-906b-2399c565ad81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hdr">
+      <UniqueIdentifier>{55bf15b2-5a50-488a-a912-cd5161c6ea7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZExternals">
+      <UniqueIdentifier>{e0ca1548-c78c-437e-be33-bc638bcded7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I16_Cmn">
+      <UniqueIdentifier>{432bc349-0fdb-4775-bc36-8b374a2c5f30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BS_Cmn.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut0.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_GIni.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut2.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut4.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut1.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut3.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut5.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut6.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut5a.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut5c.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut5d.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut7.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut7a.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut7b.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut7c.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="BS_Ut2a.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafv.h">
+      <Filter>Hdr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\I16_Cmn\I16_Intf.h">
+      <Filter>I16_Cmn</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BS_Cmn.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_GIni.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut0.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="I16Lib.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut2.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut4.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut1.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut3.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut5.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut6.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut5a.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut5c.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut5d.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut7.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut7a.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut7b.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut7c.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BS_Ut2a.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>Src</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_ReadMe_I16Lib.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="I16Lib.inl">
+      <Filter>Src</Filter>
+    </None>
+  </ItemGroup>
+</Project>

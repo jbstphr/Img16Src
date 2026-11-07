@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommand>Debug64\Img16Prc.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>E:\SimC\Img16Src\Tst\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>256 256 x0256MRI/5o.raw 90 0888 24</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArgumentsHistory>1472 2172 x1472x2172ndt/2050.raw 70 0888 24|1472 2172 x1472x2172ndt/3003.raw 71 0888 24|1280 960 x1280x0960bar/001.raw 200 0888 24|256 256 x0256MRI/3o.raw 90 0888 24|256 256 x0256MRI/5o.raw 90 0888 24|</LocalDebuggerCommandArgumentsHistory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommand>Release64\Img16Prc.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>E:\SimC\Img16Src\Tst\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>256 256 x0256MRI/3o.raw 90 0888 24</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArgumentsHistory>800 1100 x0810x1115DIO/A4??.raw 05 1833 00|1280 960 x1280x0960bar/001.raw 200 0888 24|256 256 x0256MRI/3o.raw 90 0888 24|</LocalDebuggerCommandArgumentsHistory>
+  </PropertyGroup>
+</Project>
