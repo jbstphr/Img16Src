@@ -15,9 +15,10 @@ The theoretical background of this repository might be associated with "geometri
 This directory contains ~all the code for "application-functionalities"  (beside K&R C RTL). There are
 
   = The library Img16Prc.so|.dll:
-    "I16_Lib/*
-
-  = Exec example & files' iterator Img16Prc<.exe>:
+    "I16_Lib/*" - library's source
+    "I16_Cmn/*" - common files to include in calling CPP-project
+    
+  = Process_execution_example & process_files_iterator Img16Prc<.exe>:
     "I16_Prc/*"
   
   = The directory for coding-debug-work-flow:
