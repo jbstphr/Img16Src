@@ -46,6 +46,6 @@ Auxilliary associated directories/repositories:
 
   = The directory for application-debug-work-flow:
   
-     like "e:\Img16Prc\*" or "/mnt/e/Img16Prc".
+     like "e:\Img16Prc\*" or "/mnt/e/Img16Prc/*".
     - "*.bat/*.sh" for process group of input images by Img16Prc<.exe>
     - "Img16Prcs.ljm" to process single opened image im ImageJ's Java-AWT
